@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-CrossBorder Insight —— 一个关于出海竞品对比与行业分析的平台
+CrossBorder Insight —— 出海竞品情报与行业洞察分析平台
 =====================================================
 适用场景：出海咨询 / 竞品情报分析
 运行方式：
@@ -17,7 +17,7 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 
-# ========== 自定义导航栏样式 ==========
+# ========== 新增：自定义导航栏样式 ==========
 st.markdown("""
 <style>
     /* 侧边栏整体加宽，给中英文留空间 */
@@ -50,6 +50,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 # ===========================================
+
 # ----------------------------------------------------------------------------
 # 一、数据初始化（直接定义 DataFrame，无需外部 CSV 文件）
 # ----------------------------------------------------------------------------
@@ -162,7 +163,7 @@ st.set_page_config(page_title="CrossBorder Insight", layout="wide")
 # 页面标题与副标题
 with st.sidebar:
     st.title("CrossBorder Insight")
-    st.caption("一个关于出海竞品对比与行业分析的平台")
+    st.caption("出海竞品情报与行业洞察分析平台")
     st.markdown("---")
 
     # 中英文导航选项
