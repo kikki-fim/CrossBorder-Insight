@@ -82,7 +82,7 @@ streamlit run app.py
 .
 ├── app.py              # 主程序（含全部数据与逻辑）
 ├── README.md           # 项目说明
-├── screenshots/        # 功能截图文件夹（自行添加）
+├── screenshots/        # 功能截图文件夹
 └── requirements.txt    # 程序运行所需的依赖版本要求
 ```
 
